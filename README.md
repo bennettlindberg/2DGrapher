@@ -14,13 +14,13 @@ features a customizable, zoomable, and scrollable viewing pane.
 ### Interface
 
 The application consists of multiple interface areas used for displaying and editing the graph's information. The main viewing areas are:
-1. Two-dimensional coordinate plane: displays all visible functions in a specific horitontal and vertical range
+1. Two-dimensional coordinate plane: displays all visible functions in a specific horizontal and vertical range
 2. Input field: used for entering controls and data
-3. Control list: itemizes available controls
+3. Command list: itemizes available controls
 4. Function list: itemizes existing functions
-5. Function information panel: (open using controls) displays extended information about a specific function
+5. Function information pane: (opened using controls) displays extended information about a specific function
 
-***........IMAGE........***
+<img width="1070" alt="overall_window_panes" src="https://github.com/bennettlindberg/2DGrapher/assets/54961751/bbd417f6-d39f-4e54-8ff9-5c51f67e9468">
 
 ### Functions
 
@@ -29,13 +29,13 @@ The set of functions that can be plotted using the tool is limited to those cont
 - `-` (subtraction)
 - `*` (multiplication)
 - `/` (division)
-- `^` (exponentation)
+- `^` (exponentiation)
 
 Note the following regarding function equations:
 - Operations can be used an unlimited number of times in a function's equation
 - Functions are parsed per the usual PEMDAS order of operations
 - All numbers zero through nine, the `.` character for creating decimal values, and parentheses are supported
-- When utilizing multiplication, an explicit use of the `*` character is required
+- When utilizing multiplication, explicit use of the `*` character is required
 
 ### Controls
 
@@ -89,20 +89,24 @@ The supported controls illustrate the application's array of features and are ca
 
 ## Examples
 
-The 2DGrapher window can be adjusting in height and width to fit many screen sizes. Changing the size of the window is achieved either by dragging the corners of the window or by using the built-in resizing controls:
+The 2DGrapher window can be adjusted in height and width to fit many screen sizes. Changing the size of the window is achieved either by dragging the corners of the window or by using the built-in resizing controls:
 
-***........GIF........***
+https://github.com/bennettlindberg/2DGrapher/assets/54961751/65eb96f4-f0dc-4d2b-ac18-3a7e92e17355
 
 Adding functions to the graph window is performed using the `ctrl+F+A+_` control, with `_` being one of `X` or `Y`. After adding a function to the screen, some of the function's specifications are viewable in the function list, and the rest of the information can be viewed by opening the function's information panel:
 
-***........GIF........***
+https://github.com/bennettlindberg/2DGrapher/assets/54961751/d962ce08-46f8-4419-95be-3ce928539810
 
-The graph of each visible function can be viewed in the coordinate plane. Clicking and dragging on the graph will cause it to scroll. The graph can also be zoomed using either a mouse's scroll wheel or a trackpad:
+The graph of each visible function can be viewed in the coordinate plane. Clicking and dragging on the graph will cause it to scroll. The graph can also be zoomed in or out using either a mouse's scroll wheel or a trackpad:
 
-***........GIF........***
+https://github.com/bennettlindberg/2DGrapher/assets/54961751/2e5a8dff-a851-4404-a876-b2eb02d245bf
 
 Both the coordinate plane and functions can be customized in numerous ways. Various controls allow for changing colors, equations, visibility, and more:
 
 *If customizations are not immediately viewable, try scrolling or zooming the coordinate plane to trigger a re-render*
 
-***........GIF........***
+https://github.com/bennettlindberg/2DGrapher/assets/54961751/1667dbf7-05b0-48ed-bc5f-66133cf852e6
+
+## Usage
+
+The 2DGrapher application was developed using the 32-bit version SFML 2.5 for Windows. To run the project, create a Microsoft Visual Studio Visual C++ project and configure the project per [these instructions](https://www.sfml-dev.org/tutorials/2.5/start-vc.php). Clone the files in this repository to the project and build a solution by clicking the green run button in the toolbar.
