@@ -89,4 +89,20 @@ The supported controls illustrate the application's array of features and are ca
 
 ## Examples
 
-Text
+The 2DGrapher window can be adjusting in height and width to fit many screen sizes. Changing the size of the window is achieved either by dragging the corners of the window or by using the built-in resizing controls:
+
+***........GIF........***
+
+Adding functions to the graph window is performed using the `ctrl+F+A+_` control, with `_` being one of `X` or `Y`. After adding a function to the screen, some of the function's specifications are viewable in the function list, and the rest of the information can be viewed by opening the function's information panel:
+
+***........GIF........***
+
+The graph of each visible function can be viewed in the coordinate plane. Clicking and dragging on the graph will cause it to scroll. The graph can also be zoomed using either a mouse's scroll wheel or a trackpad:
+
+***........GIF........***
+
+Both the coordinate plane and functions can be customized in numerous ways. Various controls allow for changing colors, equations, visibility, and more:
+
+*If customizations are not immediately viewable, try scrolling or zooming the coordinate plane to trigger a re-render*
+
+***........GIF........***
