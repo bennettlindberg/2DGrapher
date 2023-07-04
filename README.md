@@ -109,4 +109,4 @@ https://github.com/bennettlindberg/2DGrapher/assets/54961751/1667dbf7-05b0-48ed-
 
 ## Usage
 
-The 2DGrapher application was developed using the 32-bit version SFML 2.5 for Windows. To run the project, create a Microsoft Visual Studio Visual C++ project and configure the project per [these instructions](https://www.sfml-dev.org/tutorials/2.5/start-vc.php). Clone the files in this repository to the project and build a solution by clicking the green run button in the toolbar.
+The 2DGrapher application was developed using the 32-bit version of SFML 2.5 for Windows. To run the project, create a Microsoft Visual Studio Visual C++ project and configure the project per [these instructions](https://www.sfml-dev.org/tutorials/2.5/start-vc.php). Clone the files in this repository to the project and build a solution by clicking the green run button in the toolbar.
